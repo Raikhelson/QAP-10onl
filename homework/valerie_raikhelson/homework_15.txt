@@ -1,0 +1,23 @@
+task 2
+
+Go to first line in file: head -1 filenme
+Go to last line in file: tail -1 filename
+Forward one window: f  ^F  ^V  SPACE
+Forward one line: e  ^E  j  ^N  CR
+Backward one line: y  ^Y  k  ^K  ^P
+Search forward for matching line: /pattern
+Search backward for matching line: ?pattern
+Repeat previous search: n
+Repeat previous search in reverse direction: N
+
+task 3
+
+/dev/null - character special file 
+/dev/zero - character special file 
+/dev/sda - No such file or directory
+/dev/tty - character special file 
+/root - directory 
+/etc/passwd - regular file 
+/proc/mounts - symbolic link 
+/bin/ls - regular file 
+/bin/zcat  - regular file 
